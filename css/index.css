@@ -42,12 +42,32 @@ a {
     cursor: pointer;
 }
 
-h1 {
-    font-size: 1.85em;
-    margin-left: 25px;
-    margin-top: -20px;
-    font-weight: 600;
-    padding: 30px;
-    color: black;
-    line-height: 150%;
+.banner-section {
+    display: flex;
+    padding: 20px;
+    border: 1px solid red;
 }
+
+.service-list,
+.banner-img {
+    border: 1px solid red;
+}
+
+.service-list {
+    line-height: 1.6;
+    width: 50%;
+    padding: 0 60px;
+}
+
+.service-list li {
+    list-style-type: none;
+    line-height: 45px;
+}
+
+.service-list li:before {
+    content: '✓';
+    color: red;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
