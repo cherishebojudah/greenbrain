@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    background-color: #e4f9f5;
+}
+
+a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+/* NAVBAR SECTION  */
+
+.navbar {
+   height: 70px;
+   background-color: #ffffff;
+   padding: 20px 50px;
+   border-bottom: 1px solid #e4e7ed;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1;
+}
+
+.navbar a {
+    font-size: 1.25rem;
+}
+
+.navbar button {
+    padding: .25rem .8rem;
+    font-size: 1rem;
+    background: #ffffff;
+    border: 1px solid black;
+    outline: none;
+
+}
+
+.navbar button:hover {
+    cursor: pointer;
+}
+
+/* BANNER SECTION  */
+
+.banner-section {
+    height: 100vh;
+    display: flex;
+    padding: 80px 20px;
+    margin-top: 5px;
+    background: url('../images/bkgrd1.png') repeat;
+}
+
+.service-list {
+    line-height: 1.6;
+    width: 55%;
+    padding: 30px 60px;
+}
+
+.banner-header {
+    width: 85%;
+}
+
+.service-list li {
+    list-style-type: none;
+    line-height: 45px;
+    font-size: 1.2em;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.service-list li:before {
+    content: '✓';
+    color: red;
+    font-size: 1.5em;
+    padding-right: 8px;
+}
+
+.banner-btn {
+    padding: 15px 25px;
+    margin: 20px 0 5px 10px;
+    background-color: #219988;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.banner-img {
+    width: 45%;
+    display: flex;
+}
+
+.hero-img {
+    width: 70%;
+    margin: auto;
+    animation-name: hero-img;
+    animation-duration: 2.5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes hero-img {
+    0%   {top: 0px;}
+    50%  {top: 20px;}
+    100% {top:0px;}
+}
+
+/* CARD SECTION  */
+
+.card-section {
+    padding: 45px 35px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.card-intro {
+    margin: auto;
+    padding: 15px 0;
+    font-size: 2.5rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 40%;
+    height: 40vh;
+    background: #ffffff;
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card img {
+    width: 70px;
+    height: auto;
+}
+
+.card-title {
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+/* STATS SECTION */
+
+
