@@ -36,12 +36,11 @@ li {
 }
 
 .navbar a {
-    font-size: 1.25rem;
-    opacity: 0.85;
+    font-size: 1.33rem;
 }
 
 .navbar button {
-    padding: .35rem .8rem;
+    padding: .375rem .85rem;
     font-size: 1rem;
     background: #ffffff;
     border: 1px solid black;
