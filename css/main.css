@@ -15,6 +15,10 @@ a {
     color: #1f1f1f;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* NAVBAR SECTION  */
 
 .navbar {
@@ -33,19 +37,24 @@ a {
 
 .navbar a {
     font-size: 1.25rem;
+    opacity: 0.85;
 }
 
 .navbar button {
-    padding: .25rem .8rem;
+    padding: .35rem .8rem;
     font-size: 1rem;
     background: #ffffff;
     border: 1px solid black;
+    opacity: 0.7;
+    border-radius: 5px;
     outline: none;
 
 }
 
 .navbar button:hover {
     cursor: pointer;
+    padding: .5rem 1rem;
+
 }
 
 /* BANNER SECTION  */
@@ -91,6 +100,11 @@ a {
     color: #ffffff;
     font-size: 1.2em;
     border-radius: 5px;
+}
+
+.banner-btn:hover {
+    cursor: pointer;
+    background-color: rgb(3, 56, 50);
 }
 
 .banner-img {
@@ -211,7 +225,7 @@ a {
 /* COLLECTION SECTION */
 
 .collection-section {
-    height: 45vh;
+    height: 50vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -229,7 +243,7 @@ a {
 }
 
 .collection-txt {
-    width: 33%;
+    width: 30%;
     font-size: 1.4rem;
     text-align: center;
 }
@@ -250,4 +264,37 @@ a {
 }
 
 /* FOOTER SECTION */
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 50px 20px 20px 0;
+    background: linear-gradient(24deg,#40514e,#40514e 50%,#219988);
+}
 
+.footer-section a {
+    color: #ffffff;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-divs ul {
+    line-height: 30px;
+}
+
+#footer-div3 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
