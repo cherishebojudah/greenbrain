@@ -1,14 +1,16 @@
-body, html {
-    background-color: #88edcf;
-  }
-
 * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
   }
 
-.login-page {
+  body, html {
+    background-color: #88edcf;
+  }
+/* LOGIN PAGE */
+
+.login-page,
+.sign-up-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +45,8 @@ body, html {
     border-radius: 5px;
   }
 
-  .login-form-wrapper input {
+  .login-form-wrapper input,
+  .sign-up-form-wrapper input {
       width: 100%;
       background-color: rgb(233, 233, 233);
       border: none;
@@ -82,3 +85,53 @@ body, html {
       text-align: right;
       margin: 20px 0;
   }
+
+  /* SIGN UP PAGE  */
+
+.sign-up-form-wrapper {
+    background-color: #ffffff;
+    width: 35%;
+    padding: 25px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    border-radius: 3px;
+}
+
+.sign-up-form-wrapper div {
+    border: 1px solid #edebed;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.sign-up:after {
+  content:" *";
+  color: red;
+}
+
+.sign-up-form-wrapper button {
+    width: 100%;
+    height: 45px;
+    background-color: #88edcf;
+    margin-left: -1px;
+    border: none;
+    margin-bottom: -2px;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.fieldset-bottom {
+    margin-bottom: -30px;
+    width: 112%;
+    height: 80px;
+    background-color: #edebed;
+    margin-left: -25px;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-left: 100px;
+    border-top: 1px solid #cfcacf;
+}
+
+.fieldset-bottom a {
+  color: black;
+}
