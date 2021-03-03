@@ -99,6 +99,7 @@ li {
     color: #ffffff;
     font-size: 1.2em;
     border-radius: 5px;
+    outline: 0;
 }
 
 .banner-btn:hover {
