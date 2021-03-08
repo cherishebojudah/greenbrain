@@ -179,3 +179,39 @@ li {
 .card-text {
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    /* PROJECTS PAGE */
+    .card-projects {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .project-title {
+        font-size: 13px;
+        text-align: center;
+        margin: 5px;
+    }
+    
+    .project-text {
+       font-size: 11px;
+       text-align: center;
+       margin: 5px;
+    }
+    /* LECTURE NOTES AND PAST QUESTIONS */
+    .card {
+        padding: 5px;
+        width: 100%;
+        height: 130px;
+        margin: 20px auto;
+    }
+
+    .card-header {
+        width: 315.5px;
+        text-transform: capitalize;
+    }
+
+    .card-link {
+        text-transform: uppercase;
+    }
+}
