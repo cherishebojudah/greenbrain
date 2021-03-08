@@ -135,3 +135,22 @@
 .fieldset-bottom a {
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  .login-form-wrapper,
+  .sign-up-form-wrapper {
+    width: 90%;
+  }
+
+  .sign-in-prompt {
+    width: 337px;
+    font-size: 1rem;
+}
+
+.fieldset-bottom {
+  margin-bottom: -30px;
+  width: 337px;
+  text-align: center;
+  padding: 20px 5px;
+}
+}
